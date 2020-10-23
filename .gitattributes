@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][2],i,j;
+printf("enter six elements for a ");
+for(i=0;i<2;i++)
+{
+for(j=0;j<3;j++)
+{    //intf("\t");
+scanf("%d",&a[i][j]);
+}
+}
+for(i=0;i<2;i++)
+{
+for(j=0;j<3;j++)
+{
+    if(i==j)
+    {
+        printf("%d",a[i][j]);
+    }
+}
