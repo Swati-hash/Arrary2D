@@ -6,15 +6,20 @@ void main()
 {
 int a[3][2],i,j;
 printf("enter six elements for a ");
+//input here
+//outer loop
 for(i=0;i<2;i++)
 {
+inner loop
 for(j=0;j<3;j++)
-{    //intf("\t");
+{    
 scanf("%d",&a[i][j]);
 }
 }
+//outer loop
 for(i=0;i<2;i++)
 {
+//inner loop
 for(j=0;j<3;j++)
 {
     if(i==j)
@@ -27,4 +32,3 @@ printf("\n\t");
 getch();
 }
 
-//End the code 
